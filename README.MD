@@ -30,16 +30,16 @@ This project sets up an Arduino board as a WiFi access point using the **WiFiS3*
 
 ## Usage
 
-1. Connect your device (phone, PC) to the **"R4WIFI"** network (password:  **12345678** ) (you can chage it ate the code)).
+1. Connect your device (phone, PC) to the **"R4WIFI"** network (password:  **12345678** ) (you can change it at arduino_secrets)
 2. Open a web browser and enter the device's IP address.
 3. Click the links on the page to turn the LED **on** or  **off** .
 
 ## HTTP Endpoints
 
-| Method | Endpoint | Description                |
-| ------ | -------- | -------------------------- |
-| GET    | `/ON`  | Turns the LED**ON**  |
-| GET    | `/OFF` | Turns the LED**OFF** |
+| Method | Endpoint | Description                  |
+| ------ | -------- | ---------------------------- |
+| GET    | `/ON`  | Turns the LED(**ON)**  |
+| GET    | `/OFF` | Turns the LED(**OFF)** |
 
 ## Tags
 
