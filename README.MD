@@ -22,7 +22,7 @@ This project sets up an Arduino board as a WiFi access point using the **WiFiS3*
 1. Install the **WiFiS3** library in the Arduino IDE.
 2. Clone this repository:
    ```sh
-   git clone https://github.com/luisbaiano/Arduino-WiFi-AP.git
+   git clone https://github.com/luisbaiano/Arduino-R4-WiFi-AP.git
    ```
 3. Open the `Arduino_Server.ino` file in the Arduino IDE.
 4. Upload the sketch to your **Arduino R4 WiFi** board.
@@ -36,10 +36,10 @@ This project sets up an Arduino board as a WiFi access point using the **WiFiS3*
 
 ## HTTP Endpoints
 
-| Method | Endpoint | Description                  |
-| ------ | -------- | ---------------------------- |
-| GET    | `/ON`  | Turns the LED**ON**    |
-| GET    | `/OFF` | Turns the LED **OFF** |
+| Method | Endpoint | Description                |
+| ------ | -------- | -------------------------- |
+| GET    | `/ON`  | Turns the LED**ON**  |
+| GET    | `/OFF` | Turns the LED**OFF** |
 
 ## Tags
 
